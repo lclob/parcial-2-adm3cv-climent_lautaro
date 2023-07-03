@@ -1,7 +1,7 @@
 <template>
-  <v-sheet dark class="elevation-5 py-5" id="carrito" min-height="calc(100vh - 124px)">
+  <v-sheet dark rounded class="elevation-5 py-5" id="carrito" min-height="calc(100vh - 124px)">
     <v-container>
-      <div class="text-center">
+      <div class="text-start">
         <h2 class="mb-5">Carrito</h2>
       </div>
       <v-row justify="center">
@@ -11,11 +11,11 @@
         </v-col>
         <v-col cols="12" v-for="prod in store" :key="prod.id">
           <v-card class="mb-5">
-            <v-row align="center" no-gutters class="pa-5">
+            <v-row align="center" no-gutters class="pa-5 pa-md-0">
               <v-col cols="12" md="4">
-                <v-img :src="require(`@/assets/img/${prod.imagen}`)" aspect-ratio="1" height="200" contain></v-img>
+                <v-img :src="require(`@/assets/img/${prod.imagen}`)" aspect-ratio="1" height="100%" max-height="300" contain></v-img>
               </v-col>
-              <v-col cols="12" md="8">
+              <v-col cols="12" md="8" class="pa-md-5">
                 <v-card-text>
                   <h5 class="card-title">{{ prod.titulo }}</h5>
                   <p class="card-text">

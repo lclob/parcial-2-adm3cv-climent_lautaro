@@ -1,5 +1,5 @@
 <template>
-  <v-sheet dark class="elevation-5 py-5">
+  <v-sheet dark rounded class="elevation-5 py-5">
     <v-container>
       <v-row id="datos-usuario" justify="center">
           <div class="col-md-8 pt-3">

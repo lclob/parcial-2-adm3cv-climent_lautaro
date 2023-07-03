@@ -70,17 +70,7 @@ span{
 }
 
 /* carrito */
-#carrito .text-center {
-  text-align: center;
-}
 
-#carrito .text-end {
-  text-align: end;
-}
-
-#carrito .mb-5 {
-  margin-bottom: 2.5rem;
-}
 
 #carrito .card-title {
   font-size: 1.5rem;
@@ -146,4 +136,8 @@ span{
 
 #carrito .text-center.mt-5 {
   margin-top: 3rem;
+}
+
+.theme--dark.v-card{
+  background-color: #333333 !important;
 }

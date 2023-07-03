@@ -1,10 +1,12 @@
 <template>
-  <v-sheet class="elevation-5" id="navBar">
+  <v-sheet rounded id="navBar">
     <v-app-bar color="primary" app dense>
       <v-container>
         <v-row justify="start" align="center">
           <router-link to="/" class="home-link">
-              <span>home</span>
+            <v-btn icon dark>
+              <v-icon>mdi-home</v-icon>
+            </v-btn>
           </router-link>
 
           <v-spacer></v-spacer>
@@ -14,7 +16,7 @@
           <v-spacer></v-spacer>
 
           <router-link to="/carrito">
-            <v-btn icon>
+            <v-btn icon dark>
               <v-icon>mdi-cart</v-icon>
             </v-btn>
           </router-link>
@@ -30,6 +32,6 @@ export default {
     return {
       group: true
     }
-  },
+  }
 }
 </script>
