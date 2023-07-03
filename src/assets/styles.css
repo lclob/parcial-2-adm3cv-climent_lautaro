@@ -1,0 +1,149 @@
+/* home */
+.home-link{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+span{
+  padding: 16px;
+}
+
+#productos img{
+  padding: 3rem;
+}
+
+.nav-link {
+  color: black;
+}
+
+.active a {
+  color: black !important;
+}
+
+.card {
+  border-radius: 5px;
+  border: none;
+  overflow: hidden;
+}
+
+#productos .card img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.v-card__text{
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden !important;
+}
+
+.form {
+  border: 5px solid #FCD6CD;
+}
+
+.btn-form {
+  margin-right: calc(var(--bs-gutter-x) * .5);
+  margin-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.surf, h2{
+  color: #DF8881;
+}
+
+@media screen and (max-width: 767px) {
+  .form-productos > *{
+    text-align: start !important;
+  }
+  .ei{
+    text-align: center;
+  }
+}
+
+/* nav */
+#navBar > *, #navBar a, #navBar .v-icon{
+  color: #DF8881 !important;
+}
+
+/* carrito */
+#carrito .text-center {
+  text-align: center;
+}
+
+#carrito .text-end {
+  text-align: end;
+}
+
+#carrito .mb-5 {
+  margin-bottom: 2.5rem;
+}
+
+#carrito .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#carrito .card-text {
+  margin-bottom: 0.5rem;
+}
+
+#carrito .ei {
+  margin-top: 1rem;
+}
+
+#carrito .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#carrito .btn-primary:hover {
+  background-color: #0069d9;
+}
+
+#carrito .btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+#carrito .btn-warning:hover {
+  background-color: #e0a800;
+}
+
+#carrito .btn-error {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#carrito .btn-error:hover {
+  background-color: #bd2130;
+}
+
+#carrito .btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+#carrito .btn-success:hover {
+  background-color: #218838;
+}
+
+#carrito .text-muted {
+  font-size: 0.875rem;
+}
+
+#carrito .text-end h4 {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+#carrito .text-end h3 {
+  font-size: 1.25rem;
+}
+
+#carrito .text-center.mt-5 {
+  margin-top: 3rem;
+}
